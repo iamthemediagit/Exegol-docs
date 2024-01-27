@@ -377,3 +377,10 @@ Once the exegol wrapper is installed, you can download your first docker image w
 
    exegol install
 
+.. tip::
+
+   On Linux, if the command ``exegol install`` failed to start.
+
+      .. code-block:: bash
+   
+          sudo apt-get install cgroupfs-mount
